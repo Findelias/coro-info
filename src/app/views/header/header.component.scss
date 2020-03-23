@@ -1,0 +1,38 @@
+@import "../../variables.scss";
+@media (max-width: $small)  { 
+    .banner {
+        margin-top: 2%;
+    }
+    .title {
+        font-size: 25pt;
+        padding-left: 20%;
+    }
+ }
+
+/* Dispositivos medianos (ordenadores, anchura mayor o igual a 992px) */
+@media (min-width: $small ) and (max-width: $medium) { 
+    .banner {
+        margin-top: 2%;
+    }
+    .title {
+        font-size: 25pt;
+        padding-left: 20%;
+    }
+ }
+
+/* Dispositivos grandes (ordenadores, anchura mayor o igual a 1200px) */
+@media (min-width: $medium ) and (max-width: $large) { 
+    .banner {
+        margin-top: 1%;
+    }
+    .title {
+        font-size: 25pt;
+        padding-left: 20%;
+    }
+ }
+
+@media (min-width: $large) {
+    .banner { 
+        margin-top: 1%;
+    }
+}

@@ -1,0 +1,38 @@
+@import "../../variables.scss";
+@media (max-width: $small)  { 
+    .main-container {
+        margin: 15px;
+    }
+    .card {
+        margin-top: 10px;
+    }
+ }
+
+/* Dispositivos medianos (ordenadores, anchura mayor o igual a 992px) */
+@media (min-width: $small ) and (max-width: $medium) { 
+    .main-container {
+        margin: 15px;
+    }
+    .card {
+        margin-top: 10px;
+    }
+ }
+
+/* Dispositivos grandes (ordenadores, anchura mayor o igual a 1200px) */
+@media (min-width: $medium ) and (max-width: $large) { 
+    .main-container {
+        margin: 15px;
+    }
+    .card {
+        margin-top: 10px;
+    }
+ }
+
+@media (min-width: $large) {
+    .main-container {
+        margin: 15px;
+    }
+    .card {
+        margin-top: 10px;
+    }
+}
