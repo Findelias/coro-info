@@ -7,6 +7,9 @@
         font-size: 25pt;
         padding-left: 20%;
     }
+    .title-container {
+        cursor: pointer;
+    }
  }
 
 /* Dispositivos medianos (ordenadores, anchura mayor o igual a 992px) */
@@ -17,6 +20,9 @@
     .title {
         font-size: 25pt;
         padding-left: 20%;
+    }
+    .title-container {
+        cursor: pointer;
     }
  }
 
@@ -29,10 +35,16 @@
         font-size: 25pt;
         padding-left: 20%;
     }
+    .title-container {
+        cursor: pointer;
+    }
  }
 
 @media (min-width: $large) {
     .banner { 
         margin-top: 1%;
+    }
+    .title-container {
+        cursor: pointer;
     }
 }
