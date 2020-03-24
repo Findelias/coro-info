@@ -1,0 +1,54 @@
+@import "../../variables.scss";
+@media (max-width: $small)  { 
+    .main-container {
+        margin: 15px;
+    }
+    .item-container {
+        margin-top:10px;
+    }
+    .name {
+        color: #FF8000;
+        font-weight: bold;
+    }
+ }
+
+/* Dispositivos medianos (ordenadores, anchura mayor o igual a 992px) */
+@media (min-width: $small ) and (max-width: $medium) { 
+    .main-container {
+        margin: 15px;
+    }
+    .item-container {
+        margin-top:10px;
+        font-weight: bold;
+    }
+    .name {
+        color: #FF8000;
+    }
+ }
+
+/* Dispositivos grandes (ordenadores, anchura mayor o igual a 1200px) */
+@media (min-width: $medium ) and (max-width: $large) { 
+    .main-container {
+        margin: 15px;
+    }
+    .item-container {
+        margin-top:10px;
+    }
+    .name {
+        color: #FF8000;
+        font-weight: bold;
+    }
+ }
+
+@media (min-width: $large) {
+    .main-container {
+        margin: 15px;
+    }
+    .item-container {
+        margin-top:10px;
+    }
+    .name {
+        color: #FF8000;
+        font-weight: bold;
+    }
+}
