@@ -4,3 +4,4 @@ export { InfoComponent } from './info/info.component';
 export { BulosComponent } from './bulos/bulos.component';
 export { PrevencionComponent } from './prevencion/prevencion.component';
 export { VoluntariadoComponent } from './voluntariado/voluntariado.component';
+export { TelefonosComponent } from './telefonos/telefonos.component';

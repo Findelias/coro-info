@@ -6,7 +6,8 @@ import {
   BulosComponent,
   InfoComponent,
   PrevencionComponent,
-  VoluntariadoComponent
+  VoluntariadoComponent,
+  TelefonosComponent
  } from './views/index';
 
 
@@ -16,7 +17,8 @@ const routes: Routes = [
   { path: 'informacion', component: InfoComponent },
   { path: 'bulos', component: BulosComponent },
   { path: 'prevencion', component: PrevencionComponent },
-  { path: 'voluntariado', component: VoluntariadoComponent }
+  { path: 'voluntariado', component: VoluntariadoComponent },
+  { path: 'informacion/telefonos', component: TelefonosComponent }
 ];
 
 @NgModule({

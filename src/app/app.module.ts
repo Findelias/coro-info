@@ -12,11 +12,15 @@ import {MatButtonModule, } from '@angular/material/button';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatCardModule} from '@angular/material/card';
 import {MatExpansionModule} from '@angular/material/expansion';
+import {MatListModule} from '@angular/material/list';
+
 import { InfoComponent } from './views/info/info.component';
 import { BulosComponent } from './views/bulos/bulos.component';
 import { VoluntariadoComponent } from './views/voluntariado/voluntariado.component';
 import { PrevencionComponent } from './views/prevencion/prevencion.component';
 import { BuloComponent } from './components/bulo/bulo.component';
+import { TelefonosComponent } from './views/telefonos/telefonos.component';
+
 
 @NgModule({
   declarations: [
@@ -27,7 +31,8 @@ import { BuloComponent } from './components/bulo/bulo.component';
     BulosComponent,
     VoluntariadoComponent,
     PrevencionComponent,
-    BuloComponent
+    BuloComponent,
+    TelefonosComponent
   ],
   imports: [
     BrowserModule,
@@ -37,7 +42,8 @@ import { BuloComponent } from './components/bulo/bulo.component';
     MatButtonModule,
     MatToolbarModule,
     MatCardModule,
-    MatExpansionModule
+    MatExpansionModule,
+    MatListModule
   ],
   providers: [],
   bootstrap: [AppComponent]
