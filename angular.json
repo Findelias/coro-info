@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "coro-info"
+  "defaultProject": "coro-info",
+  "cli": {
+    "analytics": "85a22903-8206-4a17-a618-68304876b43a"
+  }
 }

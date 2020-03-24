@@ -87,5 +87,7 @@
   },
   "rulesDirectory": [
     "codelyzer"
-  ]
+  ],
+  "resolveJsonModule": true,
+  "esModuleInterop": true
 }

@@ -1,0 +1,15 @@
+{
+    "name": "Bulos",
+    "items": [
+        {
+            "title": "Agua caliente",
+            "content": "Si bebes agua caliente o haces gargaras con ella matarás al virus porque se aloja en la garganta y lo empujarás al estómago",
+            "explanation": "Es absolutamente falso. El virus no se aloja \"fisicamente\" en ninguna parte de tu cuerpo, si no que infecta tu organismo al completo"
+        },
+        {
+            "title": "Aguantar la respiración",
+            "content": "\"Si aguantas la respiración durante 10 segundos y haces...\" Hemos leido varias veces que si eres capaz de aguantar la respiración durante un determinado número de segundos mientras realizas otra actividad significa que no tienes coronavirus.",
+            "explanation": "No tiene nada que ver. Hacer una prueba de ese tipo no determina si tienes o no Coronavirus. Guíate únicamente por la sintomatología que refieren las autoridades"
+        }
+    ]
+}

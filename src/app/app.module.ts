@@ -15,6 +15,7 @@ import { InfoComponent } from './views/info/info.component';
 import { BulosComponent } from './views/bulos/bulos.component';
 import { VoluntariadoComponent } from './views/voluntariado/voluntariado.component';
 import { PrevencionComponent } from './views/prevencion/prevencion.component';
+import { BuloComponent } from './components/bulo/bulo.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { PrevencionComponent } from './views/prevencion/prevencion.component';
     InfoComponent,
     BulosComponent,
     VoluntariadoComponent,
-    PrevencionComponent
+    PrevencionComponent,
+    BuloComponent
   ],
   imports: [
     BrowserModule,
