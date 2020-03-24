@@ -11,6 +11,7 @@ import {MatMenuModule} from '@angular/material/menu';
 import {MatButtonModule, } from '@angular/material/button';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatCardModule} from '@angular/material/card';
+import {MatExpansionModule} from '@angular/material/expansion';
 import { InfoComponent } from './views/info/info.component';
 import { BulosComponent } from './views/bulos/bulos.component';
 import { VoluntariadoComponent } from './views/voluntariado/voluntariado.component';
@@ -35,7 +36,8 @@ import { BuloComponent } from './components/bulo/bulo.component';
     MatMenuModule,
     MatButtonModule,
     MatToolbarModule,
-    MatCardModule
+    MatCardModule,
+    MatExpansionModule
   ],
   providers: [],
   bootstrap: [AppComponent]

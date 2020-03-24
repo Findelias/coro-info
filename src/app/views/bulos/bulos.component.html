@@ -1,9 +1,19 @@
 <div class="container-fluid">
     <div class="row">
-        <!-- <app-bulos
-        title="bulo.title"
-        content="bulo.content"
-        answer="bulo.answer"
-        ></app-bulos> -->
+        <mat-accordion>
+            <mat-expansion-panel *ngFor="let item of bulos.items" class="bulo-container">
+                <mat-expansion-panel-header>
+                    <mat-panel-title>
+                        {{item.title}}
+                    </mat-panel-title>
+                    <mat-panel-description>
+                        Haz click para abrir
+                    </mat-panel-description>
+                </mat-expansion-panel-header>
+                <p class="bulo-info"><span class="material-icons cancel-icon">cancel</span> {{item.content}}</p>
+                    
+                <p class="bulo-explanation">{{item.explanation}}</p>
+            </mat-expansion-panel>
+        </mat-accordion>
     </div>
 </div>

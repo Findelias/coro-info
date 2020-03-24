@@ -1,18 +1,91 @@
 @import "../../variables.scss";
 @media (max-width: $small)  { 
-    
+    .container-fluid {
+        margin: 15px;
+    }
+    .bulo-container {
+        margin-top: 10px;
+    }
+    .bulo-container {
+        margin-top: 10px;
+        font-size: 14pt;
+    }
+    .bulo-info {
+        font-size: 14pt;
+    }
+    .bulo-explanation {
+        font-size: 14pt;
+        color: #57c238;
+    }
+    .cancel-icon {
+        color:#FF0000;
+    }
  }
 
 /* Dispositivos medianos (ordenadores, anchura mayor o igual a 992px) */
 @media (min-width: $small ) and (max-width: $medium) { 
-    
+    .container-fluid {
+        margin: 15px;
+    }
+    .bulo-container {
+        margin-top: 10px;
+    }
+    .bulo-container {
+        margin-top: 10px;
+        font-size: 14pt;
+    }
+    .bulo-info {
+        font-size: 14pt;
+    }
+    .bulo-explanation {
+        font-size: 14pt;
+        color: #57c238;
+    }
+    .cancel-icon {
+        color:#FF0000;
+    }
  }
 
 /* Dispositivos grandes (ordenadores, anchura mayor o igual a 1200px) */
 @media (min-width: $medium ) and (max-width: $large) { 
-   
+    .container-fluid {
+        margin: 15px;
+    }
+    .bulo-container {
+        margin-top: 10px;
+        font-size: 14pt;
+    }
+    .bulo-info {
+        font-size: 14pt;
+    }
+    .bulo-explanation {
+        font-size: 14pt;
+        color: #57c238;
+    }
+    .cancel-icon {
+        color:#FF0000;
+    }
  }
 
 @media (min-width: $large) {
-    
+    .container-fluid {
+        margin: 15px;
+    }
+    .bulo-container {
+        margin-top: 10px;
+    }
+    .bulo-container {
+        margin-top: 10px;
+        font-size: 14pt;
+    }
+    .bulo-info {
+        font-size: 14pt;
+    }
+    .bulo-explanation {
+        font-size: 14pt;
+        color: #57c238;
+    }
+    .cancel-icon {
+        color:#FF0000;
+    }
 }
